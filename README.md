@@ -1,2 +1,3 @@
 Portafolio personal
-URL Deploy:
+
+URL Deploy: https://portafolio-lorenzocanovas.netlify.app/
