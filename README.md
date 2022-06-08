@@ -1,3 +1,3 @@
 Portafolio personal
 
-URL Deploy: https://portafolio-lorenzocanovas.netlify.app/
+URL Deploy: JuppLCD.github.io/portafolio
