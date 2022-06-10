@@ -98,15 +98,18 @@
 						<div>
 							<h3>Me gustaria..</h3>
 							<p>
-								Mejorar y aprender funciones mas avanzadas de Javascript, React. Utilizando herramientas como Typescript
-								y framework como Next.js
+								Mejorar y comprender funciones mas avanzadas de Javascript, Typescript y PHP; utilizando diferentes
+								tecnologias como Laravel (Aprendiendo acualmente), Express, React JS, entre otras.
 							</p>
-							<p>Aprender otros lenguajes de programacion que me llamaron la atencion como Python o PHP.</p>
+							<p>
+								Aprender tecnologias como Next.js, Angular, Nest JS. Y otros lenguajes de programacion que me llamaron
+								la atencion como Python, Rust o C#.
+							</p>
 							<p>Mejorar en mi ingles y mis habilidades blandas</p>
 						</div>
 					</section>
 					<section class="about-skills">
-						<h3>Tecnologias que utilizo</h3>
+						<h3 class="text-center">Tecnologias con la cual estoy famirializado</h3>
 						<div class="about-grid">
 							<article class="about-grid-card" style="--color-card: #e34c26">
 								<span><i class="fa-brands fa-html5"></i></span>
@@ -140,6 +143,10 @@
 								<span><i class="fa-brands fa-git-alt"></i></span>
 								<h4>Git</h4>
 							</article>
+							<article class="about-grid-card" style="--color-card: #8892be">
+								<span><i class="fa-brands fa-php"></i></span>
+								<h4>PHP</h4>
+							</article>
 						</div>
 					</section>
 				</div>
@@ -155,111 +162,121 @@
 						<hr />
 					</div>
 					<div class="portafolio-grid">
-						<article class="portafolio-grid-card">
-							<img src="img/Harry-Pooter-WebApp.png" class="card-img" alt="Harry-Potter-WebApp" />
-							<div class="card-img-overlay">
-								<h4 class="card-title text-center fs-3">Harry Potter</h4>
-								<p class="card-text text-center my-2">
-									Web App | React con Typescript, consumiendo api de Harry Potter
-								</p>
-								<div>
-									<a
-										class="btn btn-warning"
-										href="https://harry-potter-react-ts.netlify.app/"
-										target="_blank"
-										role="button"
-										>Ver Demo</a
-									>
-									<a
-										class="btn btn-light"
-										href="https://github.com/JuppLCD/Harry-Potter-ReactTS"
-										target="_blank"
-										role="button"
-										>Code in GitHub <i class="fa-brands fa-github"></i
-									></a>
+						<article data-proyect="Harry-Potter">
+							<button
+								type="button"
+								class="portafolio-grid-card"
+								data-bs-toggle="modal"
+								data-bs-target="#proyectInfoModal"
+							>
+								<img src="img/Harry-Pooter-WebApp.png" class="card-img" alt="Harry-Potter-WebApp" />
+								<div class="card-img-overlay">
+									<h4 class="card-title text-center fs-3">Harry Potter</h4>
+									<p class="card-text text-center my-2">
+										Web App | React con Typescript, consumiendo api de Harry Potter
+									</p>
 								</div>
-							</div>
+							</button>
 						</article>
-						<article class="portafolio-grid-card">
-							<img src="img/ToDo-WebApp.png" class="card-img" alt="Todo-WebApp" />
-							<div class="card-img-overlay">
-								<h4 class="card-title text-center fs-3">ToDo</h4>
-								<p class="card-text text-center my-2">Web App | React de ToDos</p>
-								<div>
-									<a class="btn btn-warning" href="https://todo-react-crud.herokuapp.com/" target="_blank" role="button"
-										>Ver Demo</a
-									>
-									<a class="btn btn-light" href="https://github.com/JuppLCD/react-todo" target="_blank" role="button"
-										>Code in GitHub <i class="fa-brands fa-github"></i
-									></a>
+						<article data-proyect="ToDo-Fontend">
+							<button
+								type="button"
+								class="portafolio-grid-card"
+								data-bs-toggle="modal"
+								data-bs-target="#proyectInfoModal"
+							>
+								<img src="img/ToDo-WebApp.png" class="card-img" alt="Todo-WebApp" />
+								<div class="card-img-overlay">
+									<h4 class="card-title text-center fs-3">ToDo</h4>
+									<p class="card-text text-center my-2">Web App | React de ToDos</p>
 								</div>
-							</div>
+							</button>
 						</article>
-						<article class="portafolio-grid-card">
-							<img src="img/Rick-Morty-WebApp.png" class="card-img" alt="Rick-Morty-WebApp" />
-							<div class="card-img-overlay">
-								<h4 class="card-title text-center fs-3">Rick and Morty</h4>
-								<p class="card-text text-center my-2">Web App | React | consumiendo api Rick and Morty</p>
-								<div>
-									<a
-										class="btn btn-warning"
-										href="https://rick-and-morty-jupplcd.netlify.app/"
-										target="_blank"
-										role="button"
-										>Ver Demo</a
-									>
-									<a
-										class="btn btn-light"
-										href="https://github.com/JuppLCD/rick-and-morty"
-										target="_blank"
-										role="button"
-										>Code in GitHub <i class="fa-brands fa-github"></i
-									></a>
+						<article data-proyect="Rick-and-Morty">
+							<button
+								type="button"
+								class="portafolio-grid-card"
+								data-bs-toggle="modal"
+								data-bs-target="#proyectInfoModal"
+							>
+								<img src="img/Rick-Morty-WebApp.png" class="card-img" alt="Rick-Morty-WebApp" />
+								<div class="card-img-overlay">
+									<h4 class="card-title text-center fs-3">Rick and Morty</h4>
+									<p class="card-text text-center my-2">Web App | React | consumiendo api Rick and Morty</p>
 								</div>
-							</div>
+							</button>
 						</article>
-						<article class="portafolio-grid-card">
-							<img src="img/backend-img.png" class="card-img" alt="backend-ToDo" />
-							<div class="card-img-overlay">
-								<h4 class="card-title text-center fs-3">ToDo Backend</h4>
-								<p class="card-text text-center my-2">Utilizando NodeJS | Express | MongoDB</p>
-								<div>
-									<a
-										class="btn btn-light"
-										href="https://github.com/JuppLCD/todo-app-backend"
-										target="_blank"
-										role="button"
-										>Code in GitHub <i class="fa-brands fa-github"></i
-									></a>
+						<article data-proyect="ToDo-Backend">
+							<button
+								type="button"
+								class="portafolio-grid-card"
+								data-bs-toggle="modal"
+								data-bs-target="#proyectInfoModal"
+							>
+								<img src="img/backend-img.png" class="card-img" alt="backend-ToDo" />
+								<div class="card-img-overlay">
+									<h4 class="card-title text-center fs-3">ToDo Backend</h4>
+									<p class="card-text text-center my-2">Utilizando NodeJS | Express | MongoDB</p>
 								</div>
-							</div>
+							</button>
 						</article>
-						<article class="portafolio-grid-card">
-							<img src="img/practica-web-para-empresa.png" class="card-img" alt="backend-ToDo" />
-							<div class="card-img-overlay">
-								<h4 class="card-title text-center fs-3">Practicando web empresarial</h4>
-								<p class="card-text text-center my-2">Web App | React</p>
-								<div>
-									<a
-										class="btn btn-warning"
-										href="https://flamboyant-turing-e9b396.netlify.app/"
-										target="_blank"
-										role="button"
-										>Ver Demo</a
-									>
-									<a
-										class="btn btn-light"
-										href="https://github.com/JuppLCD/redesign-web-empresa"
-										target="_blank"
-										role="button"
-										>Code in GitHub <i class="fa-brands fa-github"></i
-									></a>
+
+						<article data-proyect="Empresa">
+							<button
+								type="button"
+								class="portafolio-grid-card"
+								data-bs-toggle="modal"
+								data-bs-target="#proyectInfoModal"
+							>
+								<img src="img/practica-web-para-empresa.png" class="card-img" alt="backend-ToDo" />
+								<div class="card-img-overlay">
+									<h4 class="card-title text-center fs-3">Practicando web empresarial</h4>
+									<p class="card-text text-center my-2">Web App | React</p>
 								</div>
-							</div>
+							</button>
 						</article>
 					</div>
 				</div>
 			</section>
+
+			<!-- Modal -->
+			<div
+				class="modal fade"
+				id="proyectInfoModal"
+				tabindex="-1"
+				aria-labelledby="proyectInfoModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"></div>
+			</div>
+
+			<!-- Template ModalInfo -->
+			<template id="proyectInfoTemplate">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title fw-bolder" id="proyectInfoModalLabel">Proyecto: <span>"${title}"</span></h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div>
+							<h5 class="text-decoration-underline fw-bolder">Tecnologias:</h5>
+							<h6 class="fw-bolder">"${technologies}"</h6>
+							<h5 class="text-decoration-underline fw-bolder">Descripcion:</h5>
+							<p>"${description}"</p>
+							<br />
+							<div class="d-flex justify-content-around">
+								<a class="btn btn-warning" href="${demo}" target="_blank" role="button">Ver Demo</a>
+								<a class="btn btn-light" href="${code}" target="_blank" role="button"
+									>Code in GitHub <i class="fa-brands fa-github"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</template>
 		</main>
 		<footer class="footer"><p class="m-0">Copyright &copy; 2022. Lorenzo Canovas All Rights Reserved</p></footer>
 		<script type="module" src="/src/main.js"></script>
