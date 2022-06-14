@@ -23,10 +23,10 @@ portafolio.addEventListener('click', (e) => {
 		const data = proyectInfo.filter((proyect) => proyect.title === titleProyect)[0];
 
 		template.querySelector('.modal-title span').textContent = data.title;
-		template.querySelector('.modal-body h6').textContent = data.technologies;
+		template.querySelector('.modal-body h6').textContent = data.keywords;
 		template.querySelector('.modal-body p').innerHTML = data.description;
 		template.querySelector('.modal-body a.btn-warning').href = data.demo;
-		template.querySelector('.modal-body a.btn-light').href = data.code;
+		template.querySelector('.modal-body a.btn-dark').href = data.code;
 
 		const clone = template.cloneNode(true);
 		fragment.appendChild(clone);

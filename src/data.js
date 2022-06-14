@@ -2,41 +2,49 @@ export const proyectInfo = [
 	{
 		title: 'Harry-Potter',
 		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nemo sint. Doloribus molestias quis obcaecati culpa, nemo iusto cum eum illo laudantium commodi suscipit sequi adipisci inventore, officiis ducimus nesciunt, modi velit voluptate ipsam nisi excepturi neque ipsa perferendis! Consectetur repellendus recusandae vitae nostrum, tempora, illum repellat eum earum consequatur aspernatur, doloribus corrupti. <br/> Eveniet qui asperiores temporibus sint, inventore doloremque esse voluptate nostrum quia ducimus dicta incidunt porro placeat architecto quas? Iure beatae officia necessitatibus mollitia aspernatur eveniet perspiciatis, inventore natus! Nemo, blanditiis magni. Magni, distinctio quasi temporibus tempore perspiciatis laborum. Non accusamus aut consectetur excepturi recusandae quasi, sed velit veniam tenetur voluptates hic? Alias ut perferendis provident, reprehenderit, sit aliquid nisi culpa iusto et optio officiis eum debitis hic.',
+			'Esta App Web esta hecha utilizando React + Typescript utilizando Vite en el frontend, el cual consume una api de <a href="https://aztro.readthedocs.io/" target="_blank">Aztro</a> para tema del horoscopo y una api que hice utilizando json-server(<a href="https://github.com/JuppLCD/Json-Server-HarryPotter" target="_blank">Code</a>) para obtener los datos de los personajes, frases y libros de la saga de Harry Potter.',
 		demo: 'https://harry-potter-react-ts.netlify.app/',
 		code: 'https://github.com/JuppLCD/Harry-Potter-ReactTS',
-		technologies: 'Web App, React, Typescript, api de Harry Potter',
+		keywords: 'Web App, React, Typescript, Bootstrap 5, Api de Harry Potter, json-server, NodeJS',
 	},
 	{
-		title: 'ToDo-Fontend',
+		title: 'Movies-Frontend',
 		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nemo sint. Doloribus molestias quis obcaecati culpa, nemo iusto cum eum illo laudantium commodi suscipit sequi adipisci inventore, officiis ducimus nesciunt, modi velit voluptate ipsam nisi excepturi neque ipsa perferendis! Consectetur repellendus recusandae vitae nostrum, tempora, illum repellat eum earum consequatur aspernatur, doloribus corrupti. Eveniet qui asperiores temporibus sint, inventore doloremque esse voluptate nostrum quia ducimus dicta incidunt porro placeat architecto quas? Iure beatae officia necessitatibus mollitia aspernatur eveniet perspiciatis, inventore natus! Nemo, blanditiis magni. Magni, distinctio quasi temporibus tempore perspiciatis laborum. Non accusamus aut consectetur excepturi recusandae quasi, sed velit veniam tenetur voluptates hic? Alias ut perferendis provident, reprehenderit, sit aliquid nisi culpa iusto et optio officiis eum debitis hic.',
+			'Esta App Web esta hecha sobre una "plantilla" de una lista de reproduccion de "Yoelvis Mulen { code }" sobre aprender React, lo modifique al agregarle Typescript utilizando Vite en el frontend, esta consume una api de <a href="https://www.themoviedb.org/" target="_blank">TheMovieDB</a> para obtener los datos de las peliculas, utilizando Bootstrap 5 para facilitar el diseño y un poco de Sass para modificar un poco las variables de esta. Agrege un login, para que el usuario tenga las funcionalidades de un CRUD mediante listas de peliculas. Ademas utilize una libreria de notificaciones para informar al usuario de sus acciones.',
+		demo: 'https://movies-jupplcd.netlify.app/',
+		code: 'https://github.com/JuppLCD/Movies-Frontend',
+		keywords: 'Web App, React, Typescript, Bootstrap 5, Api de TheMovieDB, Sass, React-Hot-Toas',
+	},
+	{
+		title: 'Movies-Backend',
+		description:
+			'Es un servidor en NodeJS utilizando Express y un ORM (Sequelize) para manejar la DB en MySQL. <br/> Esta contiene una api para manejar usuarios (login, singup) utilizando JWT para manejar la cesion y bcryptjs para encriptar la contraseña del usuario antes de guardarla en la DB, ademas de una api tipo CRUD respecto a listas de peliculas para la App Web Movies que se puede ver en la demo.',
+		demo: 'https://movies-jupplcd.netlify.app/',
+		code: 'https://github.com/JuppLCD/Movies-app-backend',
+		keywords: 'NodeJS, Express, hapi/boom, Joi (validator Schema), MySQL, Sequelize, jsonwebtoken, bcryptjs',
+	},
+	{
+		title: 'ToDo',
+		description:
+			'Simple ToDo utilizando React en Frontend y en Backend(<a href="https://github.com/JuppLCD/todo-app-backend" target="_blank">Code</a>) utilizando NodeJS con Express y Mongoose para conectarme a una base de datos en MongoDB',
 		demo: 'https://todo-react-crud.herokuapp.com/',
 		code: 'https://github.com/JuppLCD/react-todo',
-		technologies: 'Web App, React',
-	},
-	{
-		title: 'ToDo-Backend',
-		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nemo sint. Doloribus molestias quis obcaecati culpa, nemo iusto cum eum illo laudantium commodi suscipit sequi adipisci inventore, officiis ducimus nesciunt, modi velit voluptate ipsam nisi excepturi neque ipsa perferendis! Consectetur repellendus recusandae vitae nostrum, tempora, illum repellat eum earum consequatur aspernatur, doloribus corrupti. Eveniet qui asperiores temporibus sint, inventore doloremque esse voluptate nostrum quia ducimus dicta incidunt porro placeat architecto quas? Iure beatae officia necessitatibus mollitia aspernatur eveniet perspiciatis, inventore natus! Nemo, blanditiis magni. Magni, distinctio quasi temporibus tempore perspiciatis laborum. Non accusamus aut consectetur excepturi recusandae quasi, sed velit veniam tenetur voluptates hic? Alias ut perferendis provident, reprehenderit, sit aliquid nisi culpa iusto et optio officiis eum debitis hic.',
-		demo: 'https://todo-react-crud.herokuapp.com/',
-		code: 'https://github.com/JuppLCD/todo-app-backend',
-		technologies: 'NodeJS, Express, MongoDB',
+		keywords: 'Web App, React, NodeJS, Express, MongoDB',
 	},
 	{
 		title: 'Rick-and-Morty',
 		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nemo sint. Doloribus molestias quis obcaecati culpa, nemo iusto cum eum illo laudantium commodi suscipit sequi adipisci inventore, officiis ducimus nesciunt, modi velit voluptate ipsam nisi excepturi neque ipsa perferendis! Consectetur repellendus recusandae vitae nostrum, tempora, illum repellat eum earum consequatur aspernatur, doloribus corrupti. Eveniet qui asperiores temporibus sint, inventore doloremque esse voluptate nostrum quia ducimus dicta incidunt porro placeat architecto quas? Iure beatae officia necessitatibus mollitia aspernatur eveniet perspiciatis, inventore natus! Nemo, blanditiis magni. Magni, distinctio quasi temporibus tempore perspiciatis laborum. Non accusamus aut consectetur excepturi recusandae quasi, sed velit veniam tenetur voluptates hic? Alias ut perferendis provident, reprehenderit, sit aliquid nisi culpa iusto et optio officiis eum debitis hic.',
+			'Es una App Web hecha en React consumiendo la api de Rick and Morty para practicar la paginacion, el scroll infinite y Search Query',
 		demo: 'https://rick-and-morty-jupplcd.netlify.app/',
 		code: 'https://github.com/JuppLCD/rick-and-morty',
-		technologies: 'Web App, React, api Rick and Morty',
+		keywords: 'Web App, React, Api Rick and Morty, Bootstrap 5',
 	},
 	{
-		title: 'Empresa',
+		title: 'Chat-App-Sockets',
 		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nemo sint. Doloribus molestias quis obcaecati culpa, nemo iusto cum eum illo laudantium commodi suscipit sequi adipisci inventore, officiis ducimus nesciunt, modi velit voluptate ipsam nisi excepturi neque ipsa perferendis! Consectetur repellendus recusandae vitae nostrum, tempora, illum repellat eum earum consequatur aspernatur, doloribus corrupti. Eveniet qui asperiores temporibus sint, inventore doloremque esse voluptate nostrum quia ducimus dicta incidunt porro placeat architecto quas? Iure beatae officia necessitatibus mollitia aspernatur eveniet perspiciatis, inventore natus! Nemo, blanditiis magni. Magni, distinctio quasi temporibus tempore perspiciatis laborum. Non accusamus aut consectetur excepturi recusandae quasi, sed velit veniam tenetur voluptates hic? Alias ut perferendis provident, reprehenderit, sit aliquid nisi culpa iusto et optio officiis eum debitis hic.',
-		demo: 'https://flamboyant-turing-e9b396.netlify.app/',
-		code: 'https://github.com/JuppLCD/redesign-web-empresa',
-		technologies: 'Web App, React',
+			'El codigo original de esta app no ha sido creada por mi, esta a sido modificada y refactorizada por mi. Mas info en el README del repositorio de este proyecto en github. <br/> <br/> Basicamente esta app utilizaba http para hacer el pedido al backend en PHP y lo cambie a Sockets con la libreria Reatchet, ademas queria usar POO por lo que pase mucha logia a Clases (ya que nunca lo habia utilizado), aunque lo hice sin respetar las buenas practicas de POO en PHP <b> (me encuentro mejorando en el POO a la vez que estoy aprendiendo Laravel)</b>',
+		demo: 'https://github.com/JuppLCD/Chat-App-PHP',
+		code: 'https://github.com/JuppLCD/Chat-App-PHP',
+		keywords: 'PHP, MySQL, Ratchet, Sockets, Session',
 	},
 ];
