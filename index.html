@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Lorenzo Canovas | Portafolio 2022</title>
+		<link rel="shortcut icon" href="favicon-pc.png" type="image/x-icon" />
 		<!-- Icons -->
 		<link
 			rel="stylesheet"
@@ -19,8 +20,8 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300&display=swap"
 			rel="stylesheet"
 		/>
-		<script type="module" crossorigin src="/portafolio/assets/index.2997d9ab.js"></script>
-		<link rel="stylesheet" href="/portafolio/assets/index.8762b33d.css">
+		<script type="module" crossorigin src="/portafolio/assets/index.826aac0b.js"></script>
+		<link rel="stylesheet" href="/portafolio/assets/index.b894c197.css">
 	</head>
 	<body>
 		<!-- Header -->
@@ -93,9 +94,10 @@
 							</p>
 							<p>
 								Desde hace tiempo me habia llamado la atencion la programacion, pero nunca iniciaba a aprender ya que lo
-								veia muy complicado. Tras la pandemia pense que seria interesante echarle un vistazo y me ha somprendido
-								bastante ya que es diferente de lo que se muestra en las peliculas o series. Le he agarrado bastante
-								gusto a esta, asi que planeo seguir aprendiendo y profesionalizarme en la area de programacion.
+								veia muy complicado. <br />
+								Tras la pandemia pense que seria interesante echarle un vistazo y me ha somprendido bastante ya que es
+								diferente de lo que se muestra en las peliculas o series. Le he agarrado bastante gusto a esta, asi que
+								planeo seguir aprendiendo y profesionalizarme en la area de programacion.
 							</p>
 						</div>
 						<div>
@@ -106,7 +108,7 @@
 							</p>
 							<p>
 								Aprender tecnologias como Next.js, Angular, Laravel (Aprendiendo acualmente). Y otros lenguajes de
-								programacion que me llamaron la atencion como Python, C# o Rust.
+								programacion que me llamaron la atencion como Python, C#.
 							</p>
 							<p>Mejorar más en mi ingles (cosa que trato de hacer de forma diaria).</p>
 						</div>
@@ -275,33 +277,34 @@
 			>
 				<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"></div>
 			</div>
+		</main>
+		<footer class="footer"><p class="m-0">Copyright &copy; 2022. Lorenzo Canovas All Rights Reserved</p></footer>
 
-			<!-- Template ModalInfo -->
-			<template id="proyectInfoTemplate">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title fw-bolder" id="proyectInfoModalLabel">Proyecto: <span>"${title}"</span></h4>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<div>
-							<h5 class="text-decoration-underline fw-bolder">Keywords:</h5>
-							<h6 class="fw-bolder">"${technologies}"</h6>
-							<h5 class="text-decoration-underline fw-bolder">Descripcion:</h5>
-							<p>"${description}"</p>
-							<br />
-							<div class="d-flex justify-content-around">
-								<a class="btn btn-warning" href="${demo}" target="_blank" role="button">Ver Demo</a>
-								<a class="btn btn-dark" href="${code}" target="_blank" role="button"
-									>Code in GitHub <i class="fa-brands fa-github"></i
-								></a>
-							</div>
+		<!-- Template ModalInfo -->
+		<template id="proyectInfoTemplate">
+			<div class="modal-content bg-dark text-white">
+				<div class="modal-header">
+					<h4 class="modal-title fw-bolder" id="proyectInfoModalLabel">Proyecto: <span>"${title}"</span></h4>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div>
+						<h5 class="text-decoration-underline fw-bolder">Keywords:</h5>
+						<h6 class="fw-bolder">"${technologies}"</h6>
+						<h5 class="text-decoration-underline fw-bolder">Descripcion:</h5>
+						<p>"${description}"</p>
+						<br />
+						<div class="d-flex justify-content-around">
+							<a class="btn btn-warning" href="${demo}" target="_blank" role="button">Ver Demo</a>
+							<a class="btn btn-outline-light" href="${code}" target="_blank" role="button"
+								>Code in GitHub <i class="fa-brands fa-github"></i
+							></a>
 						</div>
 					</div>
 				</div>
-			</template>
-		</main>
-		<footer class="footer"><p class="m-0">Copyright &copy; 2022. Lorenzo Canovas All Rights Reserved</p></footer>
+			</div>
+		</template>
+
 		
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
