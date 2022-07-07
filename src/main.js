@@ -26,7 +26,7 @@ portafolio.addEventListener('click', (e) => {
 		template.querySelector('.modal-body h6').textContent = data.keywords;
 		template.querySelector('.modal-body p').innerHTML = data.description;
 		template.querySelector('.modal-body a.btn-warning').href = data.demo;
-		template.querySelector('.modal-body a.btn-dark').href = data.code;
+		template.querySelector('.modal-body a.btn-outline-light').href = data.code;
 
 		const clone = template.cloneNode(true);
 		fragment.appendChild(clone);
