@@ -34,10 +34,10 @@ export const proyectInfo = [
 	{
 		title: 'Rick-and-Morty',
 		description:
-			'Es una App Web hecha en React consumiendo la api de Rick and Morty para practicar la paginación, el scroll infinite y Search Query',
+			'Se utilizo la api de Rick and Morty para crear este proyecto, con la finalidad de aprender a comunicarme con apis, realizar scroll infinito y realizar busquedas con a la api y posteriormete realizar filtrado. Se utilizo React JS con Typescript, reemplaze Bootstrap y Sass con Tailwind CSS para probar este framework CSS',
 		demo: 'https://rick-and-morty-jupplcd.netlify.app/',
 		code: 'https://github.com/JuppLCD/rick-and-morty',
-		keywords: 'Web App, React, Api Rick and Morty, Bootstrap 5',
+		keywords: 'Web App, React, Api Rick and Morty, Tailwind CSS, Typescript',
 	},
 	{
 		title: 'Chat-App-Sockets',
