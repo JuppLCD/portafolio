@@ -24,12 +24,21 @@ export const proyectInfo = [
 		keywords: 'NodeJS, Express, hapi/boom, Joi (validator Schema), MySQL, Sequelize, jsonwebtoken, bcryptjs',
 	},
 	{
-		title: 'ToDo',
+		title: 'Meme-Generator',
 		description:
-			'Es un proyecto simple, pero lo coloco por mero gusto, ya que fue el primer proyecto en el que programé tanto en frontend como en backend aunque es poquito el código, podría decir que fue un paso importante para meterme más en el lindo mundo de la programación &#128518;&#128518;. <br/>Como se puede ver es un  ToDo utilizando React en Frontend y en Backend(<a style="color: #46ff57;" href="https://github.com/JuppLCD/todo-app-backend" target="_blank">Code</a>) utilizando NodeJS con Express y Mongoose para conectarme a una base de datos en MongoDB',
-		demo: 'https://todo-react-crud.herokuapp.com/',
-		code: 'https://github.com/JuppLCD/react-todo',
-		keywords: 'Web App, React, NodeJS, Express, MongoDB',
+			'Esta AppWeb fue creada principalmente para comprender y profundizar un poco mas sobre el manejo de imagenes desde el frontend y su envio a el backend para almacenarlas y/o eliminarlas. Posteriormente aprendi como guardad esas imagenes en una nube, en este caso utilizando Firebase Storage. <br/>En en frontend utilize React + TypeScript + Vite + Redux/toolkit + TailwindCSS. En el backend utilize NodeJS desarrollandolo con TypeScript utilizando nodemon + ts-node, de DB MySQL utilizando el ORM de Sequelize, multer para el manejo de imagnes y firebase-admin para su almacenamiento en la nube (Firebase Storage).',
+		demo: 'https://memes-react-redux.netlify.app/',
+		code: 'https://github.com/JuppLCD/Memes-react-redux-ts',
+		keywords: 'Web App, React, Typescript, TailwindCSS, Vite, Redux/toolkit, Api Memes, Api Backend NodeJS',
+	},
+	{
+		title: 'Meme-Generator-Backend',
+		description:
+			'Backend para almacenar y/o eliminar imagenes (memes). Posteriormente aprendi como guardad esas imagenes en una nube, en este caso utilizando Firebase Storage. <br/>Utilize NodeJS desarrollandolo con TypeScript utilizando nodemon + ts-node, de DB MySQL utilizando el ORM de Sequelize, multer para el manejo de imagnes y firebase-admin para su almacenamiento en la nube (Firebase Storage).',
+		demo: 'https://memes-react-redux.netlify.app/',
+		code: 'https://github.com/JuppLCD/Memes-Backend-TS',
+		keywords:
+			'NodeJS, Express, hapi/boom, MySQL, Sequelize, User session, Typescript, Firebase Storage, Multer, , jsonwebtoken, bcryptjs',
 	},
 	{
 		title: 'Rick-and-Morty',
