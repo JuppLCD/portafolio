@@ -1,0 +1,106 @@
+---
+import CardSkills from '../CardSkills.astro';
+import Container from '../Container.astro';
+import Grid from '../Grid.astro';
+import Title from '../Title.astro';
+
+// const skillData = [
+// 	{
+// 		skill : 'HTLM',
+//     	color : '#e34c26',
+// 		icon : 'fa-html5'
+// 	},
+// 	{
+// 		skill : 'Javascript',
+//     	color : '#f0db4f',
+// 		icon : 'fa-js'
+// 	},
+// 	{
+// 		skill : 'CSS',
+//     	color : '#264de4',
+// 		icon : 'fa-css3-alt'
+// 	},
+// 	{
+// 		skill : 'Sass',
+//     	color : '#cc6699',
+// 		icon : 'fa-sass'
+// 	},
+// 	{
+// 		skill : 'Bootstrap',
+//     	color : '#563d7c',
+// 		icon : 'fa-bootstrap'
+// 	},
+// 	{
+// 		skill : 'React',
+//     	color : '#61dbfb',
+// 		icon : 'fa-react'
+// 	},
+// 	{
+// 		skill : 'Node JS',
+//     	color : '#68a063',
+// 		icon : 'fa-node-js'
+// 	},
+// 	{
+// 		skill : 'Git',
+//     	color : '#f34f29',
+// 		icon : 'fa-git-alt'
+// 	},
+// 	{
+// 		skill : 'PHP',
+//     	color : '#8892be',
+// 		icon : 'fa-php'
+// 	}
+// ];
+
+import { skillData } from './../../data/skills';
+---
+
+<Container className='my-5' id='about'>
+	<Title title='Sobre Mi' />
+	<div class='row pb-5'>
+		<section class='col-12 col-lg-6 my-lg-2 mb-5'>
+			<h3>Soy...</h3>
+			<div>
+				<p>
+					Me llamo <span class='fs-5 fst-italic text-black'> José Lorenzo Canovas</span>, naci en Argentina, en la
+					capital de Cordoba.
+				</p>
+				<p>
+					Desde hace tiempo me habia llamado la atencion la programacion, pero nunca iniciaba a aprender ya que lo veia
+					muy complicado. <br />
+					Tras la pandemia pense que seria interesante echarle un vistazo y me ha somprendido bastante ya que es diferente
+					de lo que se muestra en las peliculas o series. Le he agarrado bastante gusto a esta, asi que planeo seguir aprendiendo
+					y profesionalizarme en la area de programacion.
+				</p>
+			</div>
+			<h3>Me gustaria...</h3>
+			<div>
+				<p>
+					Profundizar mas en los lenguajes con los cuales estoy familiarizado como Javascript, Typescript y PHP; y en
+					sus respectivas herramientas (librerias y frameworks que utilizo).
+				</p>
+				<p>
+					Aprender tecnologias como Next.js, Angular, Laravel (Aprendiendo acualmente). Y otros lenguajes de
+					programacion que me llamaron la atencion como Python, C#.
+				</p>
+				<p>Mejorar más en mi ingles (cosa que trato de hacer de forma diaria).</p>
+			</div>
+		</section>
+		<section class='col-12 col-lg-6'>
+			<h3 class='text-center mb-4'>Tecnologias con la cual estoy familiarizado</h3>
+			<Grid>
+				{skillData.map((skill) => <CardSkills {...skill} />)}
+				<!-- <article class="about-grid-card" style="--color-card: #1976d2">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                            <path
+                                d="M 5 4 A 1.0001 1.0001 0 0 0 4 5 L 4 45 A 1.0001 1.0001 0 0 0 5 46 L 45 46 A 1.0001 1.0001 0 0 0 46 45 L 46 5 A 1.0001 1.0001 0 0 0 45 4 L 5 4 z M 6 6 L 44 6 L 44 44 L 6 44 L 6 6 z M 15 23 L 15 26.445312 L 20 26.445312 L 20 42 L 24 42 L 24 26.445312 L 29 26.445312 L 29 23 L 15 23 z M 36.691406 23.009766 C 33.576782 22.997369 30.017578 23.941219 30.017578 28.324219 C 30.017578 34.054219 37.738281 34.055625 37.738281 36.640625 C 37.738281 36.885625 37.842187 38.666016 35.117188 38.666016 C 32.392187 38.666016 30.121094 36.953125 30.121094 36.953125 L 30.121094 41.111328 C 30.121094 41.111328 42.001953 44.954062 42.001953 36.289062 C 42.000953 30.664063 34.208984 30.945391 34.208984 28.150391 C 34.208984 27.067391 34.978375 26.054687 37.109375 26.054688 C 39.240375 26.054688 41.126953 27.3125 41.126953 27.3125 L 41.267578 23.607422 C 41.267578 23.607422 39.113892 23.019408 36.691406 23.009766 z"
+                            ></path>
+                        </svg>
+                    </span>
+                    <h4>Typescript</h4>
+                </article> -->
+			</Grid>
+		</section>
+	</div>
+</Container>
