@@ -1,0 +1,36 @@
+<>
+    <!-- Modal -->
+    <div
+        class="modal fade"
+        id="proyectInfoModal"
+        tabindex="-1"
+        aria-labelledby="proyectInfoModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered"></div>
+    </div>
+    <!-- Template ModalInfo -->
+    <template id="proyectInfoTemplate">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h4 class="modal-title fw-bolder" id="proyectInfoModalLabel">Proyecto: <span>"title"</span></h4>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <h5 class="text-decoration-underline fw-bolder">Keywords:</h5>
+                    <h6 class="fw-bolder">"technologies"</h6>
+                    <h5 class="text-decoration-underline fw-bolder">Descripcion:</h5>
+                    <p>"description"</p>
+                    <br />
+                    <div class="d-flex justify-content-around">
+                        <a class="btn btn-warning" href="${demo}" target="_blank" role="button">Ver Demo</a>
+                        <a class="btn btn-outline-light" href="${code}" target="_blank" role="button"
+                            >Code in GitHub <i class="fa-brands fa-github"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+</>

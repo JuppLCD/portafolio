@@ -1,0 +1,22 @@
+---
+export interface Props {
+    imgUrl:string;
+    positionImg?:string; // center - right
+    isFixed?: boolean;
+};
+
+const {imgUrl, positionImg = 'right', isFixed = false} = Astro.props;
+
+const attachmentValue = isFixed ? 'fixed': 'scroll';
+
+const styles = `
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${imgUrl}');
+    background-size: cover;
+    position: relative;
+    background-position: ${positionImg} ;
+    background-attachment: ${attachmentValue} ;
+`;
+---
+<section class="py-5" style={styles} >
+    <slot />
+</section>

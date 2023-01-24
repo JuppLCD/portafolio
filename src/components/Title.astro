@@ -1,0 +1,33 @@
+---
+export interface Props {
+	color?: string;
+	title:string;
+};
+const { color='#212529', title } = Astro.props;
+---
+<div class="mt-5">
+    <h2 style={`color:${color}`}>
+        {title}
+    </h2>
+    <hr />
+</div>
+<style>
+    h2 {
+		font-size: 2rem;
+		font-weight: bold;
+		text-align: center;
+	}
+	hr {
+		background-color: rgb(172, 131, 27);
+		-webkit-box-shadow: 0 8px 26.5px -7px #191919;
+		-moz-box-shadow: 0 8px 26.5px -7px #191919;
+		box-shadow: 0 8px 26.5px -7px #191919;
+		margin: 50px 0;
+		height: 3px;
+	}
+	@media (min-width: 576px) {
+		h2 {
+			font-size: 3rem;
+		}
+	}
+</style>

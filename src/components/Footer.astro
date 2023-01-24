@@ -1,0 +1,17 @@
+---
+export interface Props {
+	name: string;
+}
+const { name } = Astro.props;
+---
+<footer class="footer">
+    <p class="m-0">Copyright &copy; 2022. {name} All Rights Reserved</p>
+</footer>
+<style>
+    .footer {
+	background-color: rgb(33, 37, 41);
+	padding: 30px 0;
+	text-align: center;
+	color: #fff;
+    }
+</style>

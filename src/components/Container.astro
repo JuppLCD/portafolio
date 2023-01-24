@@ -1,0 +1,10 @@
+---
+export interface Props {
+    className?: string;
+    id?: string;
+}
+const {className , id } = Astro.props;
+---
+<section class={`container-lg ${className} px-3`} id={`${id}`}>
+    <slot/>
+</section>
