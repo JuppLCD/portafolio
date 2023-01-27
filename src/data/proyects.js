@@ -7,7 +7,7 @@ export const proyectsData = [
 	{
 		title: 'Movies Backend',
 		info: 'NodeJS | Express | hapi/boom | MySQL | Sequelize | User',
-		img: 'backend-img.png',
+		img: 'backend-nodejs.jpg',
 	},
 	{
 		title: 'Harry Potter',
@@ -22,7 +22,7 @@ export const proyectsData = [
 	{
 		title: 'Meme Generator Backend',
 		info: 'NodeJS | Express | hapi/boom | MySQL | Sequelize | User session | Typescript | Firebase Storage | Multer',
-		img: 'backend-img.png',
+		img: 'backend-nodejs.jpg',
 	},
 	{
 		title: 'Rick and Morty',
