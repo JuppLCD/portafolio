@@ -6,13 +6,23 @@ export const proyectsData = [
 	},
 	{
 		title: 'Movies Backend',
-		info: 'NodeJS | Express | hapi/boom | MySQL | Sequelize | User',
+		info: 'NodeJS | Express | hapi/boom | MySQL | Sequelize | User session',
 		img: 'backend-nodejs.jpg',
 	},
 	{
 		title: 'Harry Potter',
 		info: 'Web App | React | Typescript | Api de Harry Potter',
 		img: 'Harry-Pooter-WebApp.png',
+	},
+	{
+		title: 'YT-Notes Frontend',
+		info: 'Web App | Vue 3 | Typescript | TailwindCSS | Vue-router | Vuex | Api Backend en laravel | Axios',
+		img: 'yt-notes.png',
+	},
+	{
+		title: 'YT-Notes Backend',
+		info: 'PHP | Laravel | MySQL | User session',
+		img: 'backend-laravel.jpg',
 	},
 	{
 		title: 'Meme Generator',
@@ -31,7 +41,7 @@ export const proyectsData = [
 	},
 	{
 		title: 'Chat App Sockets',
-		info: 'PHP | Ratchet | MySQL | User',
+		info: 'PHP | Ratchet | MySQL | User session',
 		img: 'Chat-App-PHP.jpg',
 	},
 ];

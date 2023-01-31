@@ -41,6 +41,22 @@ const proyectInfo = [
 			'NodeJS, Express, hapi/boom, MySQL, Sequelize, User session, Typescript, Firebase Storage, Multer, , jsonwebtoken, bcryptjs',
 	},
 	{
+		title: 'YT-Notes-Frontend',
+		description:
+			'La aplicación web se creó en Vue 3 para aprender este framework. Esta aplicación le permite crear un usuario y tomar notas de un video en YouTube. Para ello, debes tomar el enlace de un video de youtube, colocar un input para luego reproducirlo y tomar notas sobre él. El usuario puede crear listas de notas donde luego se guardarán las notas, permitiéndole al usuario organizar sus ideas.',
+		demo: 'https://yt-notes-vue-jupplcd.netlify.app',
+		code: 'https://github.com/JuppLCD/Notes-Youtube-Vue',
+		keywords: 'Web App | Vue 3 | Typescript | TailwindCSS | Vue-router | Vuex | Api Backend en laravel | Axios',
+	},
+	{
+		title: 'YT-Notes-Backend',
+		description:
+			'Este proyecto es una API Rest hecha en Laravel con la finalidad de aprender sobre este framework y servir de datos a un proyecto creado en Vue 3. Este servidor te permite crear un usuario, un CRUD de notas sobre un video de YouTube, así como un CRUD de lista de notas.',
+		demo: 'https://notes-youtube-backend-laravel-production.up.railway.app',
+		code: 'https://github.com/JuppLCD/Notes-Youtube-Backend-Laravel',
+		keywords: 'PHP | Laravel | MySQL | User session',
+	},
+	{
 		title: 'Rick-and-Morty',
 		description:
 			'Se utilizo la api de Rick and Morty para crear este proyecto, con la finalidad de aprender a comunicarme con apis, realizar scroll infinito y realizar busquedas con a la api y posteriormete realizar filtrado. Se utilizo React JS con Typescript, reemplaze Bootstrap y Sass con Tailwind CSS para probar este framework CSS',
